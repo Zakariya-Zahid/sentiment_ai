@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 
 # --- Load Model and Vectorizer ---
+print(os.listdir("./models")) #add this line.
 model = joblib.load("models/random_forest_model.pkl")
 vectorizer = joblib.load("models/tfidf_vectorizer.pkl")
 
