@@ -58,7 +58,9 @@ st.markdown("""
         <h1>Sentiment Analysis App</h1>
     </div>
 """, unsafe_allow_html=True)
-
+st.markdown(""" 
+    <strong style="font-weight:bold">Disclaimer:</strong> This AI model provides predictions based on machine learning and may not be 100% accurate. Results should be considered as suggestions rather than definitive analysis.
+""")
 # --- Input Form ---
 with st.form(key="sentiment_form"):
     user_input = st.text_area("📝 Enter your text below:", height=150, placeholder="Type your sentence here...")
