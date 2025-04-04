@@ -59,7 +59,7 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 st.markdown(""" 
-    <strong style="font-weight:bold">Disclaimer:</strong> This AI model provides predictions based on machine learning and may not be 100% accurate. Results should be considered as suggestions rather than definitive analysis.
+    <strong style="font-weight:bold; color:yellow;background-color:red;padding:3px 0.5em;border-radius:1.2em">Disclaimer:</strong> <span style="color:#a751fc">This AI model provides predictions based on machine learning and may not be 100% accurate. Results should be considered as suggestions rather than definitive analysis.</span>
 """, unsafe_allow_html=True)
 # --- Input Form ---
 with st.form(key="sentiment_form"):
