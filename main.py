@@ -51,11 +51,10 @@ st.markdown("""
 
 # --- Header Section ---
 st.markdown("""
-    <div class="responsive-header">
+    <div class="responsive-header" style="margin-bottom:1.8em">
         <img src = "https://cdn-icons-png.flaticon.com/512/9850/9850865.png" width="50">
         <h1>Sentiment Analysis App</h1>
     </div>
-    <p class="responsive-paragraph">Enter a sentence to analyze its sentiment using a machine learning model.</p>
 """, unsafe_allow_html=True)
 
 # --- Input Form ---
